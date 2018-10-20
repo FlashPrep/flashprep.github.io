@@ -2,18 +2,33 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Lean On Me</title>
-    <meta content="Lean On Me" name="author">
-    <meta content="Lean On Me automatically and anonymously matches peers to create a crowd-sourced texting network of instantaneous support across organizations." name="description">
-    <meta content="http://lean0n.me/app-resources/img/leanonme_og.png" property="og:image">
-    <meta content="Lean On Me" property="og:title">
-    <meta content= "Lean On Me automatically and anonymously matches peers with Supporters from their own communities, making it easy to talk to someone woh really gets it. We envision a world where texting networks allow all of us have someone to talk to. A place where everybody has someone to lean on." property="og:description">
-    <meta content="778411022317617" property="fb:app_id">
-    <link href="css/inthepress.css" rel="stylesheet">    
+    <title>FlashPrep</title>
+    <meta content="FlashPrep" name="author">
+    <meta content="SAT and ACT tutoring." name="description">
+    <meta content="https://flashprep.org/img/flashprep-icon.png" property="og:image">
+    <meta content="FlashPrep" property="og:title">
+    <meta content= "SAT and ACT tutoring." property="og:description">
+    <meta name="viewport" content="width=320, initial-scale=0.8">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127849559-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-127849559-1');
+    </script>
+
+
+
     <link href="css/grayscale.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
+
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
     <script src="https://code.jquery.com/jquery-1.12.4.min.js">
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js">
@@ -25,14 +40,19 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular.min.js">
     </script>
     <script src="js/faq-dropdown.js"></script>
-    <link href="img/favicon-3.png" rel="shortcut icon" type="image/png">
+    <link href="img/flashprep-icon.png" rel="shortcut icon" type="image/png">
 </head>
 <body>
     <div id="page-top"></div>
     <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
         <div class="container">
             <div class="navbar-header">
-                <button class="navbar-toggle" data-target=".navbar-main-collapse" data-toggle="collapse" type="button"> <span class="navbar-icon">≡</span> <i class="fa fa-bars"></i></button> <a class="navbar-brand page-scroll" href="#page-top"><img class="leanonme-logo-nav" src="img/icon.png"></a>
+                <button class="navbar-toggle" data-target=".navbar-main-collapse" data-toggle="collapse" type="button">
+                  <span class="navbar-icon">menu</span>
+                  <i class="fa fa-bars"></i></button>
+                  <a class="navbar-brand page-scroll" href="#page-top">
+                    <img class="empa-logo-nav" src="/img/flashprep-icon.png">
+                  </a>
             </div><!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
                 <ul class="nav navbar-nav">
@@ -41,69 +61,172 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">About</a>
+                        <a class="page-scroll" href="#how-it-works">How It Works</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#guide">User's Guide</a>
+                        <a class="page-scroll" href="#who-we-are">Who We Are</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#in-the-press">In The Press</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#find-hotline">Find A Hotline</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#faq">FAQ</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#team">Team</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Donate</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="mailto:team@lean0n.me">Contact</a>
+                        <a class="page-scroll" href="#contact-legal">Get In Touch</a>
                     </li>
                 </ul>
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container -->
     </nav>
     <!-- Intro Header -->
-    <header class="light-bg">
+    <header class="salmon-bg">
         <div class="body">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 col-md-offset">
-                        <img class="leanonme-logo" src="img/LOGO.png"><br>
+                        <img class="empa-logo" src="/img/flashprep-landing.png"><br>
                         <!--                         <span class="intro-phone title-text">
                             <a class="page-scroll intro-phone" href="#find-hotline">Find A Hotline</a>
                             <br>
                         </span> -->
-                         <!-- <h2>Your anonymous peer-support network</h2> -->
-                        <h2>anonymous peer support via text</h2><!-- <h2>Anonymous, secure, text-message peer support</h2> -->
-                        <br>
-                        <a class="btn btn-default page-scroll btnondark" href="#find-hotline" role="button">Find your hotline</a>
+                        <h2 class="landing-sub">No one can be Superman, but anyone can become Batman.</h2>
+                        <!--<br>
+                        <h2 class="landing-phone">619-363-2623.</h2>-->
+                        <br><br>
+                        <a class="btn btn-default page-scroll btnondark" href="#how-it-works" role="button">Unlock your superpowers!</a>
                     </div>
                 </div>
             </div>
         </div>
     </header>
-    <!-- About -->
-    <section class="white-bg container content-section text-center" id="about">
+
+    <!-- How It Works -->
+    <section class="white-bg container content-section text-center" id="how-it-works">
         <div class="about-body">
             <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <span class="about-span title-text">Lean On Me automatically and anonymously matches peers to create texting networks of instantaneous support across organizations. We envision a world where everybody has someone to lean on.</span><br>
-                        <br>
-                        <br>
-                        <img height="150px" src="./img/leaningperson.jpg"/>
-                    </div>
-                </div>
+              <div class="col-md-12">
+                  <span class="guide-span title-text">How FlashPrep Works</span>
+              </div>
+              <div class="row guide-row">
+                  <div class="col-md-4">
+                      <div class="guide-item">
+                        <p style="font-weight:bold; text-align: left !important;" class="mobile-p">Our Philosophy</p>
+                        <div class="guide-description">
+                            Send us a text message. It could be a simple “hello” or a more involved introduction, whatever you feel comfortable sharing. We'll respond with a couple quick prompts&mdash;legal agreement and $25 payment&mdash;then get you matched ASAP with your Empatexter. <br><br>If you have questions before getting started, please ask away! We really want to be super transparent and up-front with you.
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col-md-4">
+                      <div class="guide-item">
+                        <p style="font-weight:bold; text-align: left !important;" class="mobile-p">Our Philosophy</p>
+                        <div class="guide-description">
+                            Your Empatexter will really <i>listen</i>, staying present with you throughout the week and guiding the conversation in a way that's right for you. During your conversation, there are no time nor content limits.<br><br>Empatexters are amazing humans trained to support you with the world's most meaningful, convenient, and empowering conversations. However, please note that they are not licensed therapists or otherwise certified.
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col-md-4">
+                      <div class="guide-item">
+                        <p style="font-weight:bold; text-align: left !important;" class="mobile-p">Our Philosophy</p>
+                        <div class="guide-description">
+                            After a full week, the conversation will end. Don't worry, you'll receive a code in case you want the same Empatexter next time! We will ask a few questions to get your feedback on our service, then you will rate your overall satisfaction from 1 to 5 stars.<br><br>We really care about your experience, so for every star below five, we will refund you $5. For example, if you give us a 1 star rating, we will give you $20 back.
+                        </div>
+                      </div>
+                  </div>
+
+              </div>
             </div>
         </div>
     </section>
-    <!-- User's Guide -->
+
+    <!-- Who We Are -->
+    <section class="salmon-bg container content-section text-center" id="who-we-are">
+        <div class="about-body">
+            <div class="container">
+              <div class="col-md-12">
+                  <span class="guide-span title-text">Who We Are</span>
+              </div>
+              <div class="row guide-row">
+                  <div class="col-md-4">
+                      <div class="guide-item">
+                        <div class="headshot-div">
+                          <img class="mobile-headshot" src="/img/drj.png"/>
+                        </div>
+                        <p style="font-weight:bold;" class="mobile-p">Dr. J</p>
+                        <div class="guide-description">
+                          Language is a technology, just like a cell phone or a car. It helps us communicate with each other and travel through society. It is also the paintbrush through which we express our mental and emotional landscapes to ourselves. <br><br>
+                          We go to the mechanic when our bike starts making funny noises. We find a trainer or join a gym when we want to enhance the performance of our body. But to whom do we turn when we want to tune-up our attitude or blow off steam, when we run out of motivation gas, or when we need a spare smile? <br><br>
+                          Some people find their friends, families, or partners helpful. Some people turn to professionals, like therapists or spiritual leaders. Some people take to the forums or social media. It might be the scheduling logistics, or the fear of judgment, or the lack of trust, or the certainty that the other person won't truly understand...for many, the existing options just don't quite fit every situation. <br><br>
+                          We know that text message conversations aren't everyone's cup of tea, so we might not fit either, and that's OK. In general, being vulnerable is very hard. And $25 is a lot to ask for something as simple as a conversation. We wish that we could provide our service for free, all the time, in a million different formats, to everyone, everywhere, but unfortunately we haven't yet figured out how to do that in a sustainable, high-quality way.
+                          <br><br>For now, we just want to bring our option to the table: real, genuine, convenient, and truly helpful Empatext dialogue. We want to provide you with emotional breathing room, a space where you can share your mental landscape paintings. We believe that words are so, so powerful; they can paint a thousand pictures. And we believe that your words matter. We hear you, we value you, and we want to paint with you.
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col-md-4">
+                      <div class="guide-item">
+                        <div class="headshot-div">
+                          <img class="mobile-headshot" src="/img/ed.png"/>
+                        </div>
+                        <p class="mobile-p" style="font-weight:bold;">Edward</p>
+                        <div class="guide-description">
+                          At age 10, Andy was required to see a therapist regularly due to family circumstances. The visits became a dreaded chore, and he struggled for years to relate before finally being let off the hook. He had no idea at the time that it was possible to shop around to find the right fit, and he didn't have many alternative options available to grapple with his mental health.<br><br>
+
+                          When Andy went to college, he saw a similar gap between the needs of students and the options available on campus. With some friends, he created <a href="https://lean0n.me/" target="_blank">Lean On Me</a>, which offers a text-based support service very similar to Empatext. It started as a student group, but the idea quickly spread to other campuses. Now, Lean On Me is a national nonprofit which has trained and served hundreds of supporters and students across the country.<br><br>
+
+                          Andy is extremely thankful to his family, friends, and mentors for their support and guidance through the years. He considers himself lucky to have work experience in food service, retail, government, banking, academia, software, aerospace engineering, education, and venture capital. In every field and relationship, he has found the common thread of communication tying together the human experience. He is very excited for the opportunity to work directly with conversation, this most powerful medium, tool, and technology, in crafting the future of Empatext.<br><br>
+
+                          Andy earned a bachelor's in mathematics with computer science from MIT after three years of classes. He is an avid chess player who enjoys consuming books and empanadas. He is currently based in San Diego.
+
+                            </div>
+                      </div>
+                  </div>
+                  <div class="col-md-4">
+                      <div class="guide-item">
+                        <div class="headshot-div">
+                          <img class="mobile-headshot" src="/img/headshot.png"/>
+                        </div>
+                        <p class="mobile-p"  style="font-weight:bold;">Andy</p>
+                        <div class="guide-description">
+                          Empatext is a made-up word combining "empa" from <a href="https://youtu.be/1Evwgu369Jw?t=8s" target="_blank">empathy</a>&mdash;the ability to understand and share the feelings of another&mdash;and "text" from text message. <br><br>
+
+                          An Empatexter is someone we have trained (using <a href="https://www.youtube.com/watch?v=66qQRMfW1Xg" target="_blank">core ideas</a> from Lean On Me and other established services) to have a deep, meaningful, emotionally supportive conversation with you. We believe that anybody can learn the skills we teach, but just to be sure, we only allow the most exceptionally empathetic people to become Empatexters. <br><br>
+
+                          When your partner, friend, or family member is going through a rough time, what do you do? You might ask them what's going on and how you can help, but you probably don't throw your hands up and say, "sorry, we can't talk because I'm not a licensed psychiatrist." We don't require a professional counseling license or any other certification because we have learned from suicide helplines like <a href="ttps://samaritanshope.org/" target="_blank">Samaritans</a> how nonprofessional volunteers can learn to tackle some of the toughest conversations possible. <br><br>
+
+                          We know that our Empatexters can handle a wide variety of conversations, but they can't handle everything. We aren't trying to replace any existing services, just to provide another option. If the conversation indicates medical or emergency services are better suited to your needs, we will stay present with you and carry on as supportive a conversation as possible, but we will always recommend seeking professional help elsewhere as a potentially better option. <br><br>
+
+                          It is up to each Empatexter whether or not to reveal their identity during conversation with you, just as it is up to you whether or not you use your real name. If you are interested in becoming an Empatexter, please contact us using the email provided below!
+                        </div>
+                      </div>
+                  </div>
+
+              </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact and Legal -->
+    <section class="white-bg container content-section text-center" id="contact-legal">
+        <div class="about-body">
+            <div class="container">
+              <div class="col-md-12">
+                  <span class="guide-span title-text">Email Us!</span>
+              </div>
+              <div class="row guide-row">
+                  <h2 class="landing-sub">hello (at) flashprep (dot) org</h2>
+              </div>
+            </div>
+        </div>
+    </section>
+
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+    <!--
     <section class="light-bg container content-section text-center" id="guide">
         <div class="guide-body">
             <div class="container">
@@ -140,7 +263,7 @@
                             <span class="guide-header">Receive a Reply</span>
                             <div class="guide-description">
                                 <br>
-                                    Typically, the expected wait time is just under 5 minutes. While the service is available at any time of day, please remember that Supporters are your peers, who lead their own busy lives and occasionally remember to sleep. As a result, the wait time for a conversation sent in at 4:30am may be slightly longer, and we thank you for understanding that! 
+                                    Typically, the expected wait time is just under 5 minutes. While the service is available at any time of day, please remember that Supporters are your peers, who lead their own busy lives and occasionally remember to sleep. As a result, the wait time for a conversation sent in at 4:30am may be slightly longer, and we thank you for understanding that!
                             </div>
                         </div>
                     </div>
@@ -153,7 +276,7 @@
                             <span class="guide-header">Have a Conversation</span>
                             <div class="guide-description">
                                 <br>
-                                    You can now have a conversation with the Supporter! Feel free to carry on the conversation for as long as you like. If you ever feel uncomfortable with a Supporter text “/flag” to the hotline, and we’ll match you with another! For a full list of commands, text "/help" to the hotline. Supporters will never see your slash commands. 
+                                    You can now have a conversation with the Supporter! Feel free to carry on the conversation for as long as you like. If you ever feel uncomfortable with a Supporter text “/flag” to the hotline, and we’ll match you with another! For a full list of commands, text "/help" to the hotline. Supporters will never see your slash commands.
                             </div>
                         </div>
                     </div>
@@ -183,12 +306,13 @@
             </div>
         </div>
     </section>
-    <!-- In the Press -->
+
+
     <section class="white-bg container content-section text-center" id="in-the-press">
       <span class="title-text">In The Press</span>
         <div class="row">
           <div class="row__inner">
-            
+
             <a  href="http://boston.masschallenge.org/startup/leanonme">
               <div class="tile">
                 <div class="tile__media">
@@ -237,7 +361,7 @@
                 </div>
               </div>
             </a>
-            
+
             <a  href="http://www.dailymail.co.uk/news/article-3447470/MIT-students-turn-brainpower-suicide-prevention.html">
               <div class="tile">
                 <div class="tile__media">
@@ -285,7 +409,7 @@
                 </div>
               </div>
             </a>
-            
+
             <a  href="http://www.nbcnews.com/feature/college-game-plan/mit-students-use-their-smarts-create-texting-hotline-prevents-suicide-n528796">
               <div class="tile">
                 <div class="tile__media">
@@ -321,8 +445,9 @@
           </div>
         </div>
     </section>
-    
-    <!-- Find a Hotline -->
+
+
+
     <section class="light-bg container content-section text-center" id="find-hotline">
         <div class="find-hotline-body">
             <div class="container">
@@ -384,7 +509,7 @@
                                 </div>
                             </a>
                         </div>
-                    </div>  
+                    </div>
                     <div class="hotline-school col-md-6">
                         <div class="chapter">
                             <a class="chapter-link" href="http://lean0n.me/bc" target="_blank">
@@ -396,7 +521,7 @@
                                 </div>
                             </a>
                         </div>
-                    </div> 
+                    </div>
                     <div class="hotline-school col-md-6">
                         <div class="chapter">
                             <a class="chapter-link" href="http://lean0n.me/psu" target="_blank">
@@ -408,7 +533,7 @@
                                 </div>
                             </a>
                         </div>
-                    </div>  
+                    </div>
                     <div class="col-md-12">
                         Our movement is growing. If you want Lean On Me at your college or organization, <a class="find-hotline-link" href="mailto:team@lean0n.me" target="_blank">email us</a> to start a conversation.
                     </div>
@@ -416,7 +541,7 @@
             </div>
         </div>
     </section>
-        <!-- FAQ structure based on https://www.bootply.com/JAugustoGuimaraes/09AXghUDYG -->
+        FAQ structure based on https://www.bootply.com/JAugustoGuimaraes/09AXghUDYG
     <section class="white-bg container content-section text-center" id="faq">
         <div class="col-md-12">
             <span class="faq-span title-text">Frequently Asked Questions</span>
@@ -465,7 +590,7 @@
         </div>
     </div>
     </div>
-    
+
     <div class="panel panel-default">
     <div class="panel-heading">
         <h4 class="panel-title">
@@ -477,7 +602,7 @@
     <div id="collapseSeven" class="panel-collapse collapse">
         <div class="panel-body">
         <p style="color:#FF6A6A; size:15px">Completely! When users text in, their number is encrypted, and their messages are conveyed to our Supporters by the hotline number itself. Neither the User nor the Supporter ever see the other’s number, both communicate solely with the hotline number. While we do know how many repeat Users we’ve had, we don’t know who Users are, we don’t know where Users live, or anything else Users don’t tell us throughout the course of the conversation itself for that matter.</p>
-        </div>    
+        </div>
     </div>
     </div>
     <div class="panel panel-default">
@@ -491,7 +616,7 @@
     <div id="collapseHeight" class="panel-collapse collapse">
         <div class="panel-body">
         <p style="color:#FF6A6A; size:15px">We are not a suicide hotline, nor are we trained to deal with crisis-level situations. We’re just kind peers willing to listen and talk, but if you need urgent help or find yourself in a crisis, please call 9-1-1, or text “HOME” to the <a style="color:#CC0000" href="http://www.crisistextline.org/">National Crisis Textline</a> at 741-741.</p>
-        </div>    
+        </div>
     </div>
     </div>
     <div class="panel panel-default">
@@ -506,17 +631,18 @@
         <div class="panel-body" style="color:#FF6A6A">
         <span class="faq-answer">
         <p style="color:#FF6A6A; size:15px">Feedback is always welcome! If you have a suggestion, please drop us a line at <a style="color:#CC0000" class="faq-email" href="mailto:team@lean0n.me" target="_blank">team@lean0n.me</a>! We are constantly thinking about how to improve the Lean On Me network and technology, so we would love to hear from you.</p>
-        </span></div>    
+        </span></div>
     </div>
     </div>
-    </div>        
+    </div>
     </div>
     </div>
     </div>
     </div>
     </section>
 
-    <!-- Team -->
+
+
     <section class="light-bg container content-section text-center" id="team">
         <div class="team">
             <div class="container team-body">
@@ -530,10 +656,8 @@
                                 <a href="https://www.linkedin.com/in/daniel-mirny/">
                                     <div class="col-md-3">
                                         <div class="team-member">
-                                            <!-- <img class="team-pic" src="img/team/charlie.png"><br><br> -->
-                                            <img class="team-pic" src="img/team/daniel.png"><br>
-                                            <br>
-                                            <span class="person-name"><!--Charlie Andrews--> Daniel Mirny</span><br>
+
+                                            Daniel Mirny</span><br>
                                             <span class="person-title">CEO</span><br>
                                             <div class="person-blurb">
                                                 Daniel is a Brain and Cognitive Sciences major at MIT, and is passionate about spreading warmth and kindness. He's incredibly excited to be working with such a phenomenal group of Supporters, and shares the team’s enthusiasm for bringing Lean On Me to as many communities as possible. In his free time Daniel enjoys skiing, hot tea, and exciting life experiences - but not necessarily in that order.<br>
@@ -548,7 +672,7 @@
                                             <img class="team-pic" src="img/team/linda.png"><br>
                                             <br>
                                             <span class="person-name">Linda Jing</span><br>
-                                            <span class="person-title"><!-- MIT Chapter Leader --> Cofounder</span><br>
+                                            <span class="person-title">Cofounder</span><br>
                                             <div class="person-blurb">
                                                 Linda is a Materials Science and Engineering student at MIT who is passionate about mental health and sustainability. She's an operations wizard who is responsible for managing our large team of peer supporters and spearheading our efforts in improving mental health through conversation.<br>
                                                 <br>
@@ -562,7 +686,7 @@
                                             <img class="team-pic" src="img/team/amin.png"><br>
                                             <br>
                                             <span class="person-name">Amin Manna</span><br>
-                                            <span class="person-title"><!-- CTO --> Cofounder</span><br>
+                                            <span class="person-title"> Cofounder</span><br>
                                             <div class="person-blurb">
                                                 Amin is a CS student at MIT. As head of technology of the Lean On Me software platform he is excited to leverage machine learning technology to build smart peer support networks and empathetic technologies. He is devoted to quality of the software platform, and the development of his team.<br>
                                                 <br>
@@ -602,7 +726,7 @@
                                             <img class="team-pic" src="img/team/nikhil.png"><br>
                                             <br>
                                             <span class="person-name">Nikhil Buduma</span><br>
-                                            <span class="person-title"><!-- Board Member --> Cofounder</span><br>
+                                            <span class="person-title"> Cofounder</span><br>
                                             <div class="person-blurb">
                                                 Nikhil is an MIT alumnus with a degree in Computer Science and a strong passion for machine intelligence. Originally the chief architect of the Lean On Me platform, he will now be focusing his efforts on bringing Lean On Me to other universities and organizations across the United States.<br>
                                                 <br>
@@ -616,7 +740,7 @@
                                             <img class="team-pic" src="img/team/andy.png"><br>
                                             <br>
                                             <span class="person-name">Andy Trattner</span><br>
-                                            <span class="person-title"><!-- Board Member-->Cofounder</span><br>
+                                            <span class="person-title">Cofounder</span><br>
                                             <div class="person-blurb">
                                                 Andy has studied math, CS, AeroAstro, salmon palette, and stick figure drawing at MIT. He led Lean On Me through its first baby steps, developing fondness and a deep respect for the power of conversation<br>
                                                 <br>
@@ -624,19 +748,8 @@
                                         </div>
                                     </div>
                                 </a>
-                                <!-- <div class="col-md-3">
-                                    <div class="team-member">
-                                        <img class="team-pic" src="img/team/mikehaynes.png"><br>
-                                        <br>
-                                        <span class="person-name">Mike Haynes</span><br>
-                                        <span class="person-title">Head of Marketing</span><br>
-                                        <div class="person-blurb">
-                                            Mike is a pre-business student at UC Berkeley who is thrilled to be sharing peace and friendly community via conversation. Mike is enthusiastic to be collaborating with an exceptionally talented team, and enjoys occupying his time with meeting new people, running, and cartoon reruns.<br>
-                                            <br>
-                                        </div>
-                                    </div>
-                                </div> -->
-                                <!-- <a href="https://www.linkedin.com/in/karen-gu-a2293a12a/">
+
+                                <a href="https://www.linkedin.com/in/karen-gu-a2293a12a/">
                                     <div class="col-md-3">
                                         <div class="team-member">
                                             <img class="team-pic" src="img/team/karen.png"><br>
@@ -649,35 +762,8 @@
                                             </div>
                                         </div>
                                     </div>
-                                </a> -->
-                                <!-- <a href="https://www.linkedin.com/in/rachelgroberman/">
-                                    <div class="col-md-3">
-                                        <div class="team-member">
-                                            <img class="team-pic" src="img/team/rachel.png"><br>
-                                            <br>
-                                            <span class="person-name">Rachel Groberman</span><br>
-                                            <span class="person-title">Software Engineer</span><br>
-                                            <div class="person-blurb">
-                                                Rachel is a Computer Science student at MIT who is committed to utilizing technology to promote social good. She is excited to be part of the Lean On Me team, as she is confident in the organization's ability to help with mental health in a multitude of communities.<br>
-                                                <br>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a> -->
-                               <!--  <a href="https://www.linkedin.com/in/suhasraja/">
-                                    <div class="col-md-3">
-                                        <div class="team-member">
-                                            <img class="team-pic" src="img/team/suhas.png"><br>
-                                            <br>
-                                            <span class="person-name">Suhas Raja</span><br>
-                                            <span class="person-title">Software Engineer</span><br>
-                                            <div class="person-blurb">
-                                                Suhas is an Computer Engineering major at the University of Texas at Austin, and is fascinated by the power of technology to further social justice. He is also interested in the integration of computers with biology- notably, neural interfacing and artificial intelligence.<br>
-                                                <br>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a> -->
+                                </a>
+
                             <div class="col-md-3">
                                 <div class="team-member">
                                     <img class="team-pic" src="img/team/anonymous.png"><br>
@@ -704,7 +790,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div> -->
+                        </div>
                     </div>
                 </div>
                 <div class="row">
@@ -713,7 +799,7 @@
             </div>
         </div>
     </section>
-    <!-- Contact -->
+
     <section class="white-bg container content-section text-center" id="contact">
         <div class="contact-body">
             <div class="container">
@@ -734,5 +820,4 @@
             </div>
         </div>
     </section>
-</body>
-</html>
+  -->
